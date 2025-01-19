@@ -1,0 +1,122 @@
+` all the variables
+num = 2
+string = "greg22222"
+gregHappy = True
+
+
+gregBeep
+gregPr "greg"
+gregSleep 1
+gregPr num
+gregSleep 1
+gregPr string
+
+gregIn skibidi
+gregPr skibidi
+
+gregIn skibidi2 "put smth idk "
+gregPr skibidi2
+
+gregPr 4 + 4
+
+gregSleep 1
+
+math_1 = 4
+math_2 = 3
+
+gregPr math_1 + math_2
+gregSleep 1
+
+gregCurDate
+
+gregSleep 1
+
+gregCurTime
+
+gregSleep 1
+
+gregCurDateTime
+
+gregSleep 1
+
+gregPr "testing 'gregPrintAll'"
+gregPr "------------------------------------------------------------------------"
+
+gregSleep 2
+gregPrintAll
+
+gregPr "testing 'gregType'"
+gregPr "------------------------------------------------------------------------"
+
+gregSleep 2
+
+gregType num
+gregSleep 1
+gregType string
+gregSleep 1
+gregType gregHappy
+gregSleep 1
+gregType skibidi
+gregSleep 1
+gregType skibidi2
+gregSleep 1
+gregType math_1
+gregSleep 1
+gregType math_2
+
+gregPr "testing 'gregClear'"
+gregPr "------------------------------------------------------------------------"
+gregSleep 2
+
+` somewhere around here breaks it...hmmmmm
+gregClear
+
+gregPr "testing including files"
+gregPr "------------------------------------------------------------------------"
+gregSleep 2
+
+
+include "test1.sgc"
+
+gregPr f"string in 'test1.sgc' is '{testing_include_string}'"
+gregPr f"int in 'test1.sgc' is '{testing_include_int}'"
+
+gregPr "testing if statements"
+gregPr "------------------------------------------------------------------------"
+gregSleep 2
+include "test3.sgc"
+
+gregPr "testing things that are bugs currently"
+gregPr "------------------------------------------------------------------------"
+gregSleep 2
+gregPr "being able to print out if statements in gregpr"
+gregSleep 1
+
+gregPr if (num1 > num2) then (gregPr "num1 is greater!") else (gregPr "num2 is greater!")
+gregSleep 1
+
+gregPr "not being able to put a colon in gregPr"
+gregSleep 1
+
+gregPr "greg is:"
+gregSleep 1
+
+gregPr "trying to add nums that were from input"
+gregIn math_3
+gregIn math_4
+
+gregPr math_3 + math_4
+
+gregSleep 2
+
+gregPr "testing reading and writing to files"
+gregPr "------------------------------------------------------------------------"
+gregSleep 2
+
+gregWriteToFile greg.txt "Hello, World!"
+gregReadFile greg.txt
+
+
+gregSleep 2
+gregPr "------------------------------------------------------------------------"
+gregPr "that's all for testing rn. If you find anything that should be added here, plz do so."
