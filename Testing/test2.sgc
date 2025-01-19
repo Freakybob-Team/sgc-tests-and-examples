@@ -1,0 +1,4 @@
+num1 = 7
+num2 = 4
+gregPr "below is the if statement working!"
+if (num1 > num2) then (gregPr "num1 is greater!") else (gregPr "num2 is greater!")
