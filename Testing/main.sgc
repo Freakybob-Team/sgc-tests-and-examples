@@ -84,7 +84,7 @@ gregPr f"int in 'test1.sgc' is '{testing_include_int}'"
 gregPr "testing if statements"
 gregPr "------------------------------------------------------------------------"
 gregSleep 2
-include "test3.sgc"
+include "test2.sgc"
 
 gregPr "testing things that are bugs currently"
 gregPr "------------------------------------------------------------------------"
