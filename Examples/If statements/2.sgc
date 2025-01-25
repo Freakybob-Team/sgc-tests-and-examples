@@ -1,0 +1,4 @@
+greg1 = "greg"
+greg2:
+gregIn greg2
+if (greg1 == greg2) then (gregPr "equal")
