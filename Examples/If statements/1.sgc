@@ -1,0 +1,5 @@
+greg1 = "greg"
+greg2 = "greg"
+if (greg1 == greg2) then (gregPr "equal") else (gregPr "not equal")
+
+` this is peak
