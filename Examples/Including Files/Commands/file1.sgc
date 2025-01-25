@@ -1,0 +1,5 @@
+include "file2.sgc"
+
+gregPr "-----------------------------------------------------------"
+
+gregPr "all the stuff above is from file2.sgc lmfao"
