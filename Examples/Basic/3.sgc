@@ -1,0 +1,20 @@
+gregPr "It's a summer night, you're drunk when one of your friends jokes about a banana business"
+gregSleep 3
+gregPr "You then think, 'It might work out'"
+gregSleep 2
+gregPr "You walk out the bar and go on your computer"
+gregSleep 2
+gregPr "'How to make a profit with bananas'"
+gregSleep 2
+gregPr "You start a business and begin your journey"
+gregSleep 2
+
+
+cash = 50
+
+gregPr f"\nYour current cash is ${cash}"
+gregPr "Each banana will cost you 25 cents."
+gregPr "Goal: Get as much cash as possible, don't go bankrupt or sell all your bananas!"
+
+gregPr "---------------------------------------------------------------"
+gregPr "someday the full game will be made in SGC... for now, this is just the intro!"
