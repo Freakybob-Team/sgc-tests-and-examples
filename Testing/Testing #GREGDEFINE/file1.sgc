@@ -1,0 +1,21 @@
+include "file2.sgc"
+
+gregPr "this is testing #GREGDEFINE!"
+
+gregSleep 1
+
+gregPr f"the answer to x + y is {math}!"
+
+gregSleep 1
+
+gregPr "the cool thing about #GREGDEFINE is that it's for variables!"
+
+gregSleep 3
+
+gregPr "meaning you can't use other commands inside it!"
+
+gregSleep 2
+
+gregPr "bai bai"
+
+` geeg
