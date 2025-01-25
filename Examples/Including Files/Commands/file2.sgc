@@ -1,0 +1,3 @@
+gregPr "what is your name bbg..."
+gregIn name
+if (name == "greg") then (gregPr "that's so fucking hot.. shoving dildo in ass now.") else (gregPr f"hai {name}")
