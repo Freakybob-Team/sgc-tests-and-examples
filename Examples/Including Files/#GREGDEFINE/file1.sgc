@@ -1,0 +1,5 @@
+include "file2.sgc"
+
+gregIn name "what's your name? "
+
+gregPr f"hello {name}! My name is {greg}!"
